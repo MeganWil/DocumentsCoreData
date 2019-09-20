@@ -29,7 +29,26 @@ public class Document: NSManagedObject {
         }
         self.init(entity: Document.entity(), insertInto: manageContext)
         self.name = name
-        
+        self.content = content
+        if let size = content?.count{
+            self.size = Int64(size)
+        }
+        else{
+            self.size = 0
+        }
+        self.modifiedDate = Date(timeIntervalSinceNow: 0)
+    }
+    
+    func update(name: String, content: String?){
+        self.name = name
+        self.content = content
+        if let size = content?.count{
+            self.size = Int64(size)
+        }
+        else{
+            self.size = 0
+        }
+        self.modifiedDate = Date(timeIntervalSinceNow: 0)
     }
 }
 

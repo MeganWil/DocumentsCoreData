@@ -17,6 +17,8 @@
 		D5E2DD4E2334434C0007FCA1 /* Document+CoreProp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E2DD4D2334434C0007FCA1 /* Document+CoreProp.swift */; };
 		D5E2DD50233446B10007FCA1 /* Document+CoreClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E2DD4F233446B10007FCA1 /* Document+CoreClass.swift */; };
 		D5E2DD5223344AB90007FCA1 /* MainDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E2DD5123344AB90007FCA1 /* MainDocumentViewController.swift */; };
+		D5E2DD5423349E800007FCA1 /* DocumentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E2DD5323349E800007FCA1 /* DocumentsTableViewCell.swift */; };
+		D5E2DD562334A1C20007FCA1 /* DocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E2DD552334A1C20007FCA1 /* DocViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		D5E2DD4D2334434C0007FCA1 /* Document+CoreProp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Document+CoreProp.swift"; sourceTree = "<group>"; };
 		D5E2DD4F233446B10007FCA1 /* Document+CoreClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Document+CoreClass.swift"; sourceTree = "<group>"; };
 		D5E2DD5123344AB90007FCA1 /* MainDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDocumentViewController.swift; sourceTree = "<group>"; };
+		D5E2DD5323349E800007FCA1 /* DocumentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsTableViewCell.swift; sourceTree = "<group>"; };
+		D5E2DD552334A1C20007FCA1 /* DocViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +109,13 @@
 			children = (
 				D5E2DD4C23343C120007FCA1 /* Model */,
 				D5E2DD1B23341EEE0007FCA1 /* AppDelegate.swift */,
+				D5E2DD5123344AB90007FCA1 /* MainDocumentViewController.swift */,
 				D5E2DD1F23341EEE0007FCA1 /* Main.storyboard */,
 				D5E2DD2523341EEF0007FCA1 /* Assets.xcassets */,
 				D5E2DD2723341EEF0007FCA1 /* LaunchScreen.storyboard */,
 				D5E2DD2A23341EEF0007FCA1 /* Info.plist */,
-				D5E2DD5123344AB90007FCA1 /* MainDocumentViewController.swift */,
+				D5E2DD5323349E800007FCA1 /* DocumentsTableViewCell.swift */,
+				D5E2DD552334A1C20007FCA1 /* DocViewController.swift */,
 			);
 			path = DocumentsCoreData;
 			sourceTree = "<group>";
@@ -273,10 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5E2DD5423349E800007FCA1 /* DocumentsTableViewCell.swift in Sources */,
 				D5E2DD50233446B10007FCA1 /* Document+CoreClass.swift in Sources */,
 				D5E2DD2423341EEE0007FCA1 /* DocumentsCoreData.xcdatamodeld in Sources */,
 				D5E2DD4E2334434C0007FCA1 /* Document+CoreProp.swift in Sources */,
 				D5E2DD5223344AB90007FCA1 /* MainDocumentViewController.swift in Sources */,
+				D5E2DD562334A1C20007FCA1 /* DocViewController.swift in Sources */,
 				D5E2DD1C23341EEE0007FCA1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
